@@ -224,7 +224,7 @@
   inline-size: 100%;
   aspect-ratio: 1 / 1;
 }
-.card__img_1{
+.card__img_1 {
   display: block;
   object-fit: cover;
   object-position: center;
@@ -349,11 +349,10 @@
 }
 
 @supports (
-  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
+  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff))
 ) {
   .card__img-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--page-background-color, #ffffff);
-
   }
 }
