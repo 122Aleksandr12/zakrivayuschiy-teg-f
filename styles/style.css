@@ -136,7 +136,7 @@
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
-  animation: arrow 0.5s ease-in-out infinite alternate;
+  animation: moving-pointer 0.5s ease-in-out infinite alternate;
   inset-inline-start: -20px;
   inset-block-start: 0px;
 }
@@ -191,7 +191,7 @@
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--page-background-color, #ffffff);
   inset-inline-end: 20px;
-  inset-block-start: 20px;
+  inset-block-start: 25px;
 
   mix-blend-mode: hard-light;
 }
