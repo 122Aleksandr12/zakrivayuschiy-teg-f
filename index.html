@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header card page__header">
-      <span class="page-title header__title">&lt;/HTML&gt;</span>
+      <a href="#0" class="page__title header__title">&lt;/HTML&gt;</a>
       <h1 class="header__subtitle">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <ul class="theme-menu__list">
@@ -46,8 +46,8 @@
       </nav>
     </header>
     <main class="main">
-      <ul class="cards-list">
-        <li class="cards-list__item">
+      <ul class="cards__list">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -80,7 +80,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 39 36"
                   fill="none"
-                  class="like-icon"
+                  class="й-icon"
                 >
                   <g class="heart">
                     <path
@@ -116,7 +116,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">1 спринт: Я — чистый лист</h2>
@@ -124,7 +124,7 @@
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;/HTML&gt;</span>
               <img
-                class="card__img_1"
+                class="card__img_grayscale"
                 src="./images/image.png"
                 alt="Машинка едет через лес"
               />
@@ -190,7 +190,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">1 спринт: А если не получится?</h2>
@@ -257,7 +257,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
@@ -329,7 +329,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
@@ -402,7 +402,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">3 спринт: Обходные стратегии</h2>
@@ -472,7 +472,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
@@ -546,7 +546,7 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards__list__item">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">«Сейчас я здесь»</h2>
@@ -624,7 +624,7 @@
         type="button"
         onclick="window.modal.showModal();"
         aria-controls="modal"
-        class="button button--save"
+        class="button button__save"
       >
         <svg class="button__icon" viewBox="0 0 28 28">
           <use href="./svg/floppy.svg#floppy" />
@@ -633,13 +633,11 @@
       </button>
     </main>
     <dialog class="modal" id="modal">
-      <div class="modal__content">
+      <form class="modal__content" method="dialog">
         <svg class="modal__icon" viewBox="0 0 39 39">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <p>Вставьте дискету,чтобы продолжить</p>
-      </div>
-      <form method="dialog">
         <button type="submit" class="button modal__button">
           <span class="button__text">ок</span>
         </button>
