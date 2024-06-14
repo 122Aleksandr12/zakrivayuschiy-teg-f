@@ -190,8 +190,8 @@
 
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--page-background-color, #ffffff);
-  inset-inline-end: 20px;
-  inset-block-start: 15px;
+  inset-inline-end: 25px;
+  inset-block-start: 25px;
 
   mix-blend-mode: hard-light;
 }
@@ -324,6 +324,9 @@
   .button__icon {
     block-size: 28px;
     inline-size: 28px;
+  }
+  .card__img-label{
+    inset-inline-end: 13px;
   }
 }
 
