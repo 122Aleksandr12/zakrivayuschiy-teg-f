@@ -191,7 +191,7 @@
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--page-background-color, #ffffff);
   inset-inline-end: 20px;
-  inset-block-start: 25px;
+  inset-block-start: 15px;
 
   mix-blend-mode: hard-light;
 }
