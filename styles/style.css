@@ -196,6 +196,12 @@
   mix-blend-mode: hard-light;
 }
 
+@supports ((-webkit-text-stroke: 1px var(--page-background-color, #ffffff))) {
+  .card__img-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--page-background-color, #ffffff);
+  }
+}
 .card__img {
   display: block;
   object-fit: cover;
@@ -325,14 +331,7 @@
     block-size: 28px;
     inline-size: 28px;
   }
-  .card__img-label{
-    inset-inline-end: 13px;
-  }
-}
-
-@supports ((-webkit-text-stroke: 1px var(--page-background-color, #ffffff))) {
   .card__img-label {
-    text-shadow: none;
-    -webkit-text-stroke: 1px var(--page-background-color, #ffffff);
+    inset-inline-end: 13px;
   }
 }
